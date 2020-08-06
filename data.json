@@ -1,0 +1,16 @@
+{
+    "data":[{
+        "type":"greeting",
+        "input_pattern":["hi", "hello", "whats up", "hey there"],
+        "response":["hello back", "hi back", "whats up", "how can i help you"]
+    },{
+        "type":"questions",
+        "input_pattern":["what is your name?"],
+        "response":["My name is TOBTAHC"]
+    }],
+    "exit":{
+        "exit_pattern":["exit", "quit", "bye", "good bye"],
+        "responses":["Good bye!", "Bye!"]
+    }
+}
+
